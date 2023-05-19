@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.flexbox{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+#navbar{
+    padding: 30px;
+    background-color: rgb(1, 0, 29);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#signIn{
+    padding: 10px 25px;
+    border-radius: 35px;
+    background-color: rgb(213, 64, 64);
+    border: 0px;
+}
+
+ul{
+    list-style:none;
+    margin-left: 50px;
+    font-size: small;
+}
+li:hover,sub:hover{
+    color: rgb(213, 64, 64);
+}
+
+#section{
+    background-color: rgb(1, 18, 54);
+    padding-block:150px;
+    
+}
+.section-b{
+    justify-content:space-between;
+}
+
+img{
+    width: 35wh;
+    height: 35vh;
+    border-radius: 20px;
+    animation: up-down 4s ease-in-out infinite alternate;
+}
+@keyframes up-down {
+    from{
+        transform: scale(1);
+        overflow: hidden;
+    }
+    to{
+        transform: scale(1.1);
+        overflow: hidden;
+    }
+}
+
+.s-button{
+    padding: 10px 30px;
+    border-radius: 25px;
+    background-color: rgb(213, 64, 64);
+    border: 0px;
+}
+#trial-button{
+    background-color: grey;
+}
+span{
+ color: rgb(213, 64, 64);
+ font-size: larger;
+}
+#section{
+    justify-content: center;
+    gap: 40px;
+}
+.section-b{
+    flex-direction: column;
+    width:40%;
+    align-items: flex-start;
+}
+#d-button{
+  align-items: flex-start;
+}
+h1{
+    font-size: 2.7rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li,button,sub,img:hover{
+    cursor: pointer;
+}
+img:hover{
+    animation:unset;
+}
+
